@@ -1,3 +1,12 @@
+# Snowflake account info
+1. My snowflake account has a user role created.
+2. A database and a schema are created in the account.
+3. The role is granted with usage permissions to database, to schema.
+4. The role is granted with select, insert, update permissions on existing tables and future tables.
+5. Files stage is created in the schema. 
+6. Write and read permissions to above stage are set for the role created in 1st point.
+7. A user is created and the same above role is assigned to that user.
+
 # Conflict with Google credentials
 
 * create an `.env` file, put variables according to `.env.example`
