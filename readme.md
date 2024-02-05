@@ -6,6 +6,7 @@
 5. Files stage is created in the schema. 
 6. Write and read permissions to above stage are set for the role created in 1st point.
 7. A user is created and the same above role is assigned to that user.
+8. Or a user with ACCOUNTADMIN role can be tested, it gives the same results.
 
 # Conflict with Google credentials
 
